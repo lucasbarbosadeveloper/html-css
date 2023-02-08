@@ -1,0 +1,231 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'bebas';
+    src: url('fontes/BebasNeue-Bold.otf') format('opentype');
+}
+
+body{/* corpo */
+    background-color: lightgreen;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* cabecalho */
+
+header{/* cabecalho*/
+    background-image: linear-gradient(to top, rgb(0, 107, 0), rgb(147, 209, 147));
+    height: 150px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.774);
+    padding: 20px 0px 15px 0px;
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+}
+
+header h1{/* titulo cabecalho*/
+    font-family: 'bebas';
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 0px 20px 0px;
+}
+
+header p{/* paragrafo cabecalho*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 1px;
+}
+
+nav{/* menu*/
+    margin: 33px 0px 0px 10px;
+    min-width: 320px;
+    max-width: 700px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 5px 0px 5px;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* conteudo sessao 1 */
+
+.sessao1{/* conteudo*/
+    background-color: white;
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+}
+
+.sessao1 strong{/* destaques sessao1*/
+    color: green;
+}
+
+.sessao1 h1{/* titulo principal*/
+    font-family: 'idroid';
+    color: rgb(0, 107, 0);
+    margin: 0px 15px 15px 15px;
+    padding: 15px 0px 0px 0px;
+}
+
+.sessao1 h2{/* titulo secundario*/
+    font-family: 'idroid';
+    margin: 15px;
+    background-image: linear-gradient(to right, rgba(153, 230, 153, 0.658), white);
+    color: rgb(0, 107, 0);
+}
+
+.sessao1 p{/* paragrafo sessao1*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 15px;
+}
+
+.sessao1 a{/* links sessao1*/
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sessao1 img{/* imagens */
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    display: block;
+}
+
+.sessao1 .img-pq{
+    max-width: 350px;
+}
+
+/* pseudos sessao1*/
+.sessao1 a::after{
+    content: '⚓';
+}
+
+.sessao1 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* Conteudo sessao 2 */
+
+.div-video{
+    background-color: green;
+    min-width: 320px;
+    max-width: 700px;
+    margin: -10px auto -10px auto;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+
+    position: relative;
+    padding-bottom: 20.1%;
+}
+
+.div-video iframe{
+    position: ;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+/* conteudo sessao3*/
+
+.sessao3{/* conteudo */
+    background-color: white;
+    min-width: 320px;
+    max-width: 700px;
+    border-radius: 0px 0px 10px 10px;
+    margin: 10px auto 0px auto;
+    padding: 10px 0px 15px 0px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.sessao3 div{/* div sessao3 */
+    background-color: rgb(214, 248, 214);
+    margin: 0px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+}
+
+.sessao3 h1{/* titulo div sessao3 */
+    background-color: rgb(95, 201, 95);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    padding: 5px 0px 5px 0px;
+}
+
+.sessao3 p{/* paragro div sessao3 */
+    padding: 10px;
+}
+
+.sessao3 a{/* links sessao3*/
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sessao3 strong{/* destaque sessao3*/
+    color: green;
+}
+
+/* pseudos sessao3*/
+.sessao3 a::after{/* link */
+    content: '⚓';
+}
+
+.sessao3 ul li::before{/* lista */
+    content: ' 🗸';
+}
+
+.sessao3 a:hover{/* passa o mouse*/
+    color: red;
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer p{
+    background-color: green;
+    padding: 5px;
+    margin-top: 15px;
+    color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}

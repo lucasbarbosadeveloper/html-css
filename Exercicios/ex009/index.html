@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o temanho do seu navegador.</p>
+
+    <picture><!--A tag picture permide que várias source sejam ultilizadas, a ordem tem que ser siguida do menor ao maior-->
+        <source media="(max-width: 750px)" srcset="imagens/img-P.png" type="image/png"><!--Sempre usar o "max-width", sempre colocar 50px a mais no tamanho da imagem para eliminar a barra de rolagem lateral. No type, colocar o formato da mídia.-->
+        <source media="(max-width: 1050px)" srcset="imagens/img-M.png" type="image/png">
+        <img src="imagens/img-G.png" alt="Imagem fexível"><!--Recomendável usar a maior imagem aqui na tag "img"-->
+    </picture>
+</body>
+</html>

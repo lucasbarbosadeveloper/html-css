@@ -1,0 +1,24 @@
+<!--duvidas-->
+como fazer a altura esponsiva
+como centralizar imagens
+como colocar box-shadow nos dois lados
+como cenralizar video externo
+como colocar a lista em duas colunas
+
+
+<!--Toques-->
+HTML
+Colocar o nav fora do header
+Usar o article ao inves de section
+Usar o aside ao inves de div
+Usar apenas um article dentro do main para toda a página
+Montar primeiro toda a estrutura do cite, depois ir para as CSS
+
+
+CSS
+Configurar primeiro as cores e fontes usando variávies
+Largura ideal para um site: 1200px
+Para a página se tornar responsiva, usar o min-width e max-width
+Para tornar a imagem responsiva, basta usar o width em 100%
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas.</h1>
+    <h2>Listas ordenadas</h2><!--Listas onde a ordem importa-->
+    <ol type="A"><!--Com o parâmetro "type", é possível mudar o tipo de ordenador da lista-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square"><!--Para mudar o tipo do organizador, basta usar o parâmetro type. Ah 3 opções: circle, square, disc-->
+        <li>Pão</li>
+        <li>arroz</li>
+        <li>Leite</li>
+    </ul>
+    <h2>Listas ordenadas dentro de ordenadas</h2><!--ordena listas ordenadas-->
+    <h3>Carros preferidos</h3>
+    <ol type="1">
+        <li>Antigos</li>
+        <ol type="A">
+            <li>Gol quadrado</li>
+            <li>Santana</li>
+            <li>Scort</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="A" start="4"><!--O parâmetro start, serve para definir em qual letra ou numero vai iniciar a ordem. Sempre indicar a posição do start com número, independe de ser texto ou número.-->
+            <li>Civic</li>
+            <li>Onix</li>
+            <li>Jetta</li>
+        </ol>
+    </ol>
+    <h2>Listas Mistas</h2><!--Mistura os tipos de listas-->
+    <h3>Jogos preferídos</h3>
+    <ul>
+        <li>PlayStation</li>
+        <ol>
+            <li>Bomba Pacth</li>
+                <ul type="circle">
+                    <li>Versão Neymar</li>
+                </ul>
+            <li>Gta San Andreas</li>
+            <li>007</li>
+        </ol>
+        <li>PC</li>
+        <ol>
+            <li>GTA V</li>
+            <li>Call of Duty Warzone</li>
+            <li>Efootball</li>
+        </ol>
+    </ul>
+    <h2>Lista de definições</h2>
+    <dl><!--Tipo um Dicionário-->
+        <dt>HTML</dt><!--Termo-->
+        <dd>Linguagem e marcação para a criação do conteúdo de um site</dd><!--Definição-->
+    </dl>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to top, #368a2f, #acfda2);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    padding: 10px; /*Borda interna da div*/
+    border-radius: 10px; /*Deixa a borda da div arredondada*/
+    box-shadow: 5px 5px 10px #00250283; /* Define uma sombra para a div seguindo a ordem de parametros a seguir (deslocamento lateral, deslocamento horizontal, quanto vai espalhar, cor)*/
+    width: 600px; /*Largura da div*/
+    margin: auto; /*Mantem a div centralizada independente do tamanho da tela*/
+}
+
+h1{
+    text-align: center;
+    color: #3f9e36;
+    text-shadow: 1px 1px 2px black; /*Sombra na letra*/
+
+}
+
+h2{
+    color: #26641e;
+}
+
+p{
+    text-align: justify; /*Deixa o texto monoespaçado*/
+    color: black;
+}

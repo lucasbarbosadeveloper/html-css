@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu r<a target="_blank" rel="external" href="https://github.com/gustavoguanabara">epositório público no GitHub</a></p>
+    <p>Você também pode acessar o <a target="_blank" rel="external" href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-10-aula-1-links-e-ancoras-em-html5/">meu site de cursos</a></p><!--O target "_blank" é usado para mandar o navegador abrir o link em outra aba, e o rel "external" serve para indicar ao navegador que o link aberto é externo.-->
+
+    <h1>Usando links internos.</h1>
+    <p>Esta é a página 01 do meu site, para ir para a página 02, <a href="pag002.html" rel="next" target="_self">clique aqui.</a></p><!--O rel "next", indica para a ferramenta de busca que este link é a próxima página. O targer "_self" indica que vao ser aberto na propria página.-->
+
+    <h1>Link externo dentro de pastas</h1>
+    <p>Você pode acessar nossa terceira página <a href="pagina03/pag003.html" rel="next" target="_self">clicando aqui.</a></p>
+
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="Meu livro.pdf" type="application/pdf">Clique aqui</a> para fazer o download do libro em PDF.</li>
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="Meu livro.zip" type="application/zip">Clique aqui</a> para baixar o livro compactado</li><!--O parâmetro "download" indica que é um link de download. O "type" indica o formato do arquivo que vai ser baixado.-->
+    </ul>
+</body>
+</html>

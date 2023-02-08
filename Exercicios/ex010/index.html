@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando áudio no meu site</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls autoplay loop><!--A ordem é importante, tem que sercolocado em ordem de preferência-->
+        <source src="mídia/rap_test.mp3" type="audio/mpeg">
+        <source src="mídia/rap_test.ogg" type="audio/ogg">
+        <source src="mídia/rap_test.wav" type="audio;wav">
+        <p>Seu navegador não consegue reproduzir áudio</p> 
+    </audio>
+</body>
+</html>

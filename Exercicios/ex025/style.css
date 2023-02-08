@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+a:hover{/* pseudo classe links cabecalho */
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+header{/* Cabecalho*/
+    background-color: lightpink;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px 0px;
+}
+
+header h1{/* Logomarca */
+    text-align: left;
+    color: rgb(253, 40, 75);
+}
+
+header nav{/* Menu */
+    background-color: rgb(250, 142, 158);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.24);
+}
+
+header nav a{/* links do menu*/
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+main{/* conteudo */
+    margin: 10px;
+    text-align: center;
+}
+
+main section{/* primeira secao*/
+    text-align: left;
+    padding: 10px;
+    background-color: lightpink;
+}
+
+main section p {/* paragrafo primeira secao */
+    text-align: justify;
+}
+
+.artigo{/* Artigo primeira secao*/
+    background-color: rgb(250, 142, 158);
+}
+
+footer p{/* rodape */
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}

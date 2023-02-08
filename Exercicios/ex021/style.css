@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8dfc8d;
+}
+
+/* destaques */
+.destaque{
+    color: red;
+    font-weight: bold;
+}
+
+/* titulos prncipais e secundarios */
+h1{
+    color: #005c00;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #023d00;
+    color: #ffffff;
+}
+
+/* titulos de paragrafos */
+h2{
+    color: #01a301;
+}
+
+.basico{
+    background-color: white;
+    color: green;
+}
+
+.intermediario{
+    background-color: gray;
+    color: orange;
+}
+
+.avancado{
+    background-color: black;
+    color: red;
+}
+
+
+/* paragrafos */
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
