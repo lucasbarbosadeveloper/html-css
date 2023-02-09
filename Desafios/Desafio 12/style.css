@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* fontes */
+@font-face {
+    font-family: 'Passion One';
+    src: url('fontes/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('fontes/Sriracha-Regular.ttf') format('truetype');
+}
+
+:root{
+    --fonte-titulo: 'Passion One', cursive;
+    --fonte-paragrafos: 'Sriracha', cursive;
+}
+
+/* cabecalho */
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 60px;
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 11em;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* conteudo */
+article p{
+    font-family: var(--fonte-paragrafos);
+    font-size: 4.5em;
+}
+
+.img1{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.img2{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
