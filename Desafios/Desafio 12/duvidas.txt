@@ -1,2 +1,15 @@
-Como colocar sobra dentro da section
+Como colocar sombra dentro da section
+-usar o box-shadow: inset
+
 Como fazer letras responsivas
+-(opcional) Para tornar as letras responsivas, basta usar no fonte-size: o vw(viewport width) em %, ou seja, o percentual de tamanho em relação a largura da página.
+
+ver pq as fonts importadas não estão funcionando
+
+toques
+não precisa colocar o <br> na linha de baixo, coloca onde quer quebra a linha
+Para colocar todas letras em maiusculo, basta usar o text-transform: uppercase;
+Para deixar todas as letras maiusculas, porém com  a primeira letra maior, basta usar o font-variant: small-caps;
+começar usar op vh(viewport height) para a responsividade das sections
+(opcional) Para tornar as letras responsivas, basta usar no fonte-size: o vw(viewport width) em %, ou seja, o percentual de tamanho em relação a largura da página.
+Para fazer com que a div se adapte de acordo com o tamanho do conteúdo, basta usar o display: inline-block:
